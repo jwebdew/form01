@@ -1,0 +1,85 @@
+﻿@charset "utf-8";
+
+* { margin: 0; padding: 0; }
+body {
+	font: 16px "맑은 고딕", "Malgun Gothic", sans-serif;
+	color: #333;
+	background-color: #fff;
+}
+.hidden {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: -1000em;
+	font-size: 0;
+}
+form {
+	width: 600px;
+	margin: 20px auto;
+	border: 1px dotted #666;
+	padding: 20px 0;
+}
+fieldset {
+	border: 0;
+} 
+
+h1 {
+	display: none;
+}
+h2 {
+	text-align: center;
+	margin-bottom: 15px;
+}
+label {
+	display: inline-block;
+	width: 150px;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 10px;
+	vertical-align: top;
+}
+form div {
+	margin-bottom: 10px;
+
+}
+input[type="text"],
+input[type="password"],
+textarea{
+	width: 300px;
+	height: 25px;
+	border-radius: 3px;
+	border: 1px solid #666;
+}
+form .vlaue {
+	margin-right: 10px;
+}
+form textarea {
+	height: 100px;
+	resize: none; /*사이즈조절 안됨*/
+}
+.bottons {
+	text-align:center;
+}
+input[type="reset"],
+input[type="submit"] {
+	padding: 5px;
+}
+input:focus {
+	background-color: #000;
+	color: #f08080;
+	padding-left: 10px; 
+	box-sizing:border-box;
+}
+textarea::placeholder {
+	font-size: 12px;
+	color: #333;
+	padding: 10px;
+}
+textarea:focus {
+	border: 1px solid #f08080;
+	padding-left: 10px; 
+	box-sizing:border-box; 
+}
+
+

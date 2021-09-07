@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Document</title>
+	<link href="css/login.css" rel="stylesheet">
+
+</head>
+<body>
+	<div id="form">
+		<div class="left">
+			<div>
+				<h3>안녕하세요<br />
+				반응형웹디자인반입니다.</h3>
+				<p>회원 서비스 이용을 위해 로그인 해주세요.</p>
+				<div class="join">
+					아직 회원이 아니시면 회원가입 해주세요.
+					<span class="button"><a href="#">회원가입</a></span>
+				</div>
+			</div>
+		</div><!--left end-->
+		<div class="right">
+			<form action="action_page.php" method="post">
+				<h2>Sign In</h2>
+				<fieldset>
+					<legend class="hidden">개인정보(필수)</legend>
+					<div>
+						<label for="name">아이디</label>
+						<input type="text" name="name" id="name" required autofocus placeholder="아이디">
+					</div>
+					<div>
+						<label for="name">비밀번호</label>
+						<input type="text" name="name" id="name" required autofocus placeholder="비밀번호">
+					</div>	
+					<div class="idpw_search">
+						<a href="#">아이디 / 비밀번호 찾기</a>
+					</div>
+					<button class="login">로그인하기</button>
+					<div class="sns_login">
+						<button>네이버 로그인</button>
+						<button>카카오톡 로그인</button>
+						<button>인스타그램 로그인</button>
+					</div> 
+				</fieldset>
+			</form>
+		</div><!-- .right end -->
+	</div><!--.form end-->
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+﻿@charset "utf-8";
+
+* { margin: 0; padding: 0; }
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+#form {
+    width: 600px;
+    margin: 50px auto;
+    border:1px solid #000;
+     
+}
+fieldset {border:0;}
+legend {
+    position: absolute; 
+    left:-999999px;
+}
+div {
+    margin-bottom: 10px;
+}
+.title{
+    display:inline-block;
+    width: 150px;
+    font-weight: bold;
+    text-align: right;
+}
+ 
+input[type="text"], 
+input[type="password"] {
+    width: 300px;
+    height: 30px;
+}
+input[type="button"] {
+    width: 100px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    border:0;
+}
+
+.button {
+    text-align: center;
+}
+input[type="submit"] {
+    width: 120px;
+    height: 40px;
+    background-color: #000;
+    border: 0;
+    color: #fff;
+}
+input[type="reset"] {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+.align {
+    vertical-align: top;
+
+}
+/*.title.align 
+ 동일한 클래스속성에 들어가 있는 속성값들 */
+ /* label.title  */
+
+textarea {
+    resize:none; /* 사이즈조절안됨 */
+}
+
+#form {padding: 50px 0;}
+h2 {
+    font-weight: lighter;
+    border-bottom: 1px solid #999;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.title {
+    font-weight: lighter;
+    font-size: 14px;
+}
+input[type="text"],
+input[type="password"] {
+    border: 1px solid #ccc;
+}
+*:focus {
+    outline: 1px solid #f08080;
+    /* background-color: #000;
+    color: #fff; */
+    border: 0;
+}
+ 
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"] + span {
+    display:inline-block;
+    border: 1px solid #f08080;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+}
+input[type="checkbox"]:checked + span {
+    background-color: #f08080;
+    color: #000;
+}
+
+select {
+    width: 200px;
+    height: 40px;
+}
+.addr2 {margin-left: 150px;}
+.title {float:left;}
